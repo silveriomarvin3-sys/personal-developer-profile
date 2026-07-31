@@ -2,24 +2,26 @@
 
 ## Overview
 This is my personal portfolio website introducing myself, my skills, projects, and contact information.
-Originally built as an HTML-only structure, it has since been upgraded with a full CSS styling pass.
-This project was built as part of my Tech VA Journey roadmap.
+Built starting from plain HTML, then progressively upgraded through multiple CSS revisions into a modern, professional-feeling site.
+This project was built as part of my Tech VA Journey roadmap — Project 01.
 
 ---
 
 ## Technologies Used
 - HTML5
-- CSS3 (Flexbox, CSS Variables, Transitions)
+- CSS3 (Flexbox, CSS Variables, Transitions, Google Fonts)
 
 ---
 
 ## Features
 - Styled navigation menu with smooth scroll and hover states
-- Hero-style home section with centered, readable typography
-- Skills section with interactive hover-tag badges
+- Modern hero section with tag badges and dual call-to-action buttons
+- Skills section presented as interactive icon cards
 - Projects section with a styled, animated project card
-- Styled contact form
+- Polished contact form with focus states
 - Styled footer
+- Custom typography using Google Fonts (Poppins + Inter)
+- Refined, modern color palette
 
 ---
 
@@ -41,9 +43,8 @@ Project 01 - Personal Profile
 ### Before (HTML only)
 ![Before screenshot](screenshots/before.png)
 
-### After (Styled with CSS)
-![After screenshot](screenshots/after.png)
-![After screenshot 2 ](screenshots/after2.png)
+### After (Fully styled, v3)
+![After screenshot](screenshots/final_finish_product_for_now.png)
 
 ---
 
@@ -51,27 +52,28 @@ Project 01 - Personal Profile
 
 **From the HTML phase:**
 - Basic HTML document structure
-- Headings and paragraphs
-- Navigation links and anchor-based section jumps
-- Lists, forms, and organizing a webpage into sections
+- Headings, paragraphs, navigation links, lists, and forms
+- Organizing a webpage into semantic sections
 
-**From the CSS phase:**
-- Linking an external stylesheet and using CSS variables for consistent colors
-- The Box Model (margin, border, padding, content)
+**From the CSS phase (v1 → v3):**
+- Linking an external stylesheet and using CSS variables for consistent, easily-updatable theming
+- The Box Model and spacing fundamentals
 - Styling with classes over raw tags for scalability
-- Flexbox for layout (navigation bar, skill tags, form structure)
-- Hover states and smooth transitions for interactivity
-- Building a reusable card component (project card with shadow and hover lift)
-- Typography and spacing principles — readable line-height, limited color palette, purposeful white space
+- Flexbox for layout — navigation, skill cards, forms, and hero buttons
+- Hover and focus states for interactivity and accessibility
+- Building reusable components (project cards, button variants using base + modifier classes)
+- Typography using Google Fonts to shift the site from "default browser look" to a modern, professional feel
+- Iterative design thinking — revising a working page multiple times based on structured feedback, rather than treating v1 as final
 
 ---
 
 ## Reflection
-This project has grown from my very first webpage into something that actually looks and feels like a real developer portfolio, not a school assignment.
-Going from plain HTML to a fully styled site taught me that CSS isn't just decoration — it's what makes a page feel trustworthy and professional at first glance.
-I still have more sections and projects to add before this is fully complete, and I'm looking forward to bringing in JavaScript next to make the site interactive, not just good-looking.
+This project took me from writing my very first line of HTML to a fully styled, modern-feeling personal portfolio site — built, debugged, and revised across several real iterations.
+The biggest lesson wasn't a single tag or property, but the process itself: build something functional first, then improve it deliberately, one focused pass at a time, rather than trying to perfect everything at once.
+This project is now considered complete for the HTML/CSS phase of my training. JavaScript and additional portfolio projects come next.
 
 ---
 
 ## Status
-🚧 In progress — actively expanding project sections and skills before moving into JavaScript.
+✅ Complete — HTML/CSS phase finished.
+Next: JavaScript fundamentals, followed by Project 02.
