@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
@@ -19,7 +20,7 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     <main>
-        <section id="home">
+        <section id="home" class="hero">
             <h2>Home</h2>
             <p>I am Marvin, I automate systems, create websites, and develop applications for businesses. Making their work more efficient and streamlined.</p>
             <p> A year ago, i was just a 2nd year student that was learning the ropes and training in anything, but i found what i want, what i love, and here i am.</p>
@@ -40,14 +41,20 @@
 
         <section id="projects">
             <h2>Projects</h2>
-            <article>
+            <div class="project-card">
                 <h3>Project 1: Automated Workflow System</h3>
-                <p>Description: Developed an automated workflow system for a client using Zapier and n8n, streamlining their business processes.</p>
-            </article>
+                <p>Description: Developed an automated workflow system using Zapier and n8n, streamlining business processes.</p>
+                <div class="tags">
+                    <span>Zapier</span>
+                    <span>n8n</span>
+                    <span>Automation</span>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
+            
             <form id="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Your Name" required>

@@ -39,11 +39,11 @@ Project 01 - Personal Profile
 ## Screenshots
 
 ### Before (HTML only)
-homepage.png
+(Add your before.png screenshot here)
 
 ### After (Styled with CSS)
-homepage with css v1.png
-homepage with css v1(2).png
+![After screenshot](homepage with css v1.png)
+![After screenshot 2 ](homepage with css v1(2).png)
 
 ---
 
