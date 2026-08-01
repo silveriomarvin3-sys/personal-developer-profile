@@ -215,6 +215,30 @@ form button:hover {
     transform: translateY(-2px);
 }
 
+.form-message {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 12px;
+    min-height: 20px;
+    opacity: 0;
+    transform: translateY(-8px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-message.show {
+    animation: fadeSlideIn 0.3s ease forwards;
+}
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 footer {
     background-color: var(--primary);
     color: white;
