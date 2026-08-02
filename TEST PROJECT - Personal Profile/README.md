@@ -83,6 +83,26 @@ Project 01 - Personal Profile
 
 ---
 
+## Business Context
+
+**Business problem:**
+A new freelancer/VA has no way to prove their skills to potential clients without prior paid work experience.
+
+**Who uses this?**
+Me, directly — as a live, working demonstration of my HTML/CSS/JS ability for potential clients and employers reviewing my application materials.
+
+**Why is this useful?**
+A coded, functioning site is stronger proof of technical skill than a written resume alone — it lets a client see real, interactive work firsthand, not just a description of it.
+
+**What JavaScript concepts were practiced?**
+- Form validation (`required`, `type="email"`, custom length checks)
+- DOM selection and event listeners (`querySelector`, `addEventListener`)
+- `event.preventDefault()` to control form submission
+- Inline UI feedback (replacing browser alerts) with CSS class-driven animations
+- `setTimeout()` to simulate real-world async loading behavior
+
+---
+
 ## Reflection
 This project took me from writing my very first HTML tag to building a fully interactive, validated, animated contact form — debugging real, non-obvious bugs along the way, including timing conflicts between browser behaviors that aren't obvious even when the code "looks correct."
 The biggest lesson from the JavaScript phase wasn't syntax — it was learning to actually observe what the browser is doing versus what I assumed it was doing, and testing hypotheses one variable at a time instead of guessing.
